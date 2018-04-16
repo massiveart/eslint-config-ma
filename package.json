@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-ma",
+  "version": "1.0.0",
+  "description": "ESLint shareable config used by MASSIVE ART",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test/*.js --config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massiveart/eslint-config-ma.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "massiveart"
+  ],
+  "author": "MASSIVE ART Webservices GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/massiveart/eslint-config-ma/issues"
+  },
+  "homepage": "https://github.com/massiveart/eslint-config-ma#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  }
+}
