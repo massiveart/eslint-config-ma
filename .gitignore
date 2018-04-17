@@ -1,0 +1,19 @@
+# NPM
+node_modules
+package-lock.json
+npm-debug.log
+
+# OS generated files
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea
+*.iml
+
+# Changelog (generate with github_changelog_generator not commit just copied to release)
+CHANGELOG.md
