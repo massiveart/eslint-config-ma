@@ -105,7 +105,12 @@ module.exports = {
         "key-spacing": "error",
         "keyword-spacing": "error",
         "lines-around-directive": "error",
-        "new-cap": "error",
+        "new-cap": [
+            "error",
+            {
+                "capIsNewExceptions": ["$.Deferred", "jQuery.Deferred"]
+            }
+        ],
         "new-parens": "error",
         "newline-before-return": "error",
         "no-lonely-if": "error",
