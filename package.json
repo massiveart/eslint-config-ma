@@ -21,7 +21,7 @@
     "url": "https://github.com/massiveart/eslint-config-ma/issues"
   },
   "homepage": "https://github.com/massiveart/eslint-config-ma#readme",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^4.19.1"
   },
   "peerDependencies": {
