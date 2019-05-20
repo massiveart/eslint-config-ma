@@ -77,6 +77,7 @@ module.exports = {
             "error",
             "never"
         ],
+        "arrow-spacing": "error",
         "curly": "error",
         "eqeqeq": "error",
         "capitalized-comments": "error",
