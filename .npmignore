@@ -1,0 +1,5 @@
+.gitattributes
+.editorconfig
+/.circleci
+/test
+.idea

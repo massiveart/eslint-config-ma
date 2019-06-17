@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ma",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint shareable config used by MASSIVE ART",
   "main": "index.js",
   "scripts": {
