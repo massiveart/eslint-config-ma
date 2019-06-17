@@ -49,7 +49,10 @@ module.exports = {
         ],
         "max-len": [
             "error",
-            120
+            120,
+            {
+                "ignorePattern": "^import\\s.+\\sfrom\\s.+;$",
+            }
         ],
         "max-statements-per-line": [
             "error",
@@ -67,12 +70,21 @@ module.exports = {
             "error",
             "always"
         ],
-        "object-curly-newline": [
-            "error",
-            {
+        "object-curly-newline": ["error", {
+            "ObjectExpression": {
+                "minProperties": 1
+            },
+            "ObjectPattern": {
+                "minProperties": 1
+            },
+            "ImportDeclaration": "never",
+            "ExportDeclaration": {
                 "minProperties": 1
             }
-        ],
+        }],
+        "object-property-newline": ["error", {
+            "allowAllPropertiesOnSameLine": true
+        }],
         "space-before-function-paren": [
             "error",
             "never"
@@ -120,7 +132,6 @@ module.exports = {
         "no-underscore-dangle": "error",
         "no-unneeded-ternary": "error",
         "no-whitespace-before-property": "error",
-        "object-property-newline": "error",
         "space-before-blocks": "error",
         "space-in-parens": "error",
         "space-infix-ops": "error",
