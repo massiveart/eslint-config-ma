@@ -89,6 +89,13 @@ module.exports = {
             "error",
             "never"
         ],
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "never"
+        }],
         "arrow-spacing": "error",
         "curly": "error",
         "eqeqeq": "error",
@@ -110,7 +117,6 @@ module.exports = {
         "camelcase": "error",
         "comma-spacing": "error",
         "comma-style": "error",
-        "comma-dangle": "error",
         "computed-property-spacing": "error",
         "eol-last": "error",
         "func-call-spacing": "error",

@@ -6,10 +6,10 @@ var test1 = {};
 var test2 = {
     import1,
     import2,
-    import3
+    import3,
 };
 
 export {
     test1 as Test1,
-    test2 as Test2
+    test2 as Test2,
 };
