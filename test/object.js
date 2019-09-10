@@ -1,9 +1,11 @@
+/* eslint-disable import/no-unresolved */
+
 import { import1, import2 } from 'test';
 import import3 from 'test-import/with-very-long-name/with-very-long-name/with-very-long-name/with-very-long-name/with-very-long-name';
 
-var test1 = {};
+const test1 = {};
 
-var test2 = {
+const test2 = {
     import1,
     import2,
     import3,
