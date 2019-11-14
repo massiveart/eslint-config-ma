@@ -1,19 +1,19 @@
-/* eslint-disable object-curly-newline */
+/* eslint-disable object-curly-newline, import/no-unresolved */
 import { importSingleLine } from 'hello';
 import {
     importMultiline1,
     importMultiline2,
-} from 'hello';
+} from 'hello2';
 
-var singleLine = { comma: 'dangle' };
+const singleLine = { comma: 'dangle' };
 
-var multiLine = {
+const multiLine = {
     comma: 'dangle',
 };
 
-var arraySingleLine = [1, 2];
+const arraySingleLine = [1, 2];
 
-var arrayMultiLine = [
+const arrayMultiLine = [
     1,
     2,
 ];
