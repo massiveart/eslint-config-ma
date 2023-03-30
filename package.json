@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/massiveart/eslint-config-ma#readme",
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^8.37.0"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=8"
   }
 }
