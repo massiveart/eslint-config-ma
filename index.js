@@ -8,14 +8,12 @@ module.exports = {
         amd: true,
     },
     extends: 'eslint:recommended',
+    plugins: ['import'],
     parserOptions: {
         sourceType: 'module'
     },
     rules: {
-        'arrow-parens': [
-            'error',
-            'always'
-        ],
+        'arrow-parens': ['error', 'always'],
         'indent': [
             'error',
             4,
@@ -23,26 +21,11 @@ module.exports = {
                 SwitchCase: 1,
             }
         ],
-        'quotes': [
-            'error',
-            'single'
-        ],
-        'one-var': [
-            'error',
-            'never'
-        ],
-        'operator-linebreak': [
-            'error',
-            'before'
-        ],
-        'padded-blocks': [
-            'error',
-            'never'
-        ],
-        'semi': [
-            'error',
-            'always'
-        ],
+        'quotes': ['error', 'single'],
+        'one-var': ['error', 'never'],
+        'operator-linebreak': ['error', 'before'],
+        'padded-blocks': ['error', 'never'],
+        'semi': ['error', 'always'],
         'max-len': [
             'error',
             120,
@@ -56,16 +39,14 @@ module.exports = {
                 max: 1,
             }
         ],
+        'no-console': 'error',
         'no-multiple-empty-lines': [
             'error',
             {
                 max: 1,
             }
         ],
-        'object-curly-spacing': [
-            'error',
-            'always'
-        ],
+        'object-curly-spacing': ['error', 'always'],
         'object-curly-newline': ['error', {
             ObjectExpression: {
                 minProperties: 1,
@@ -81,10 +62,7 @@ module.exports = {
         'object-property-newline': ['error', {
             allowAllPropertiesOnSameLine: true,
         }],
-        'space-before-function-paren': [
-            'error',
-            'never'
-        ],
+        'space-before-function-paren': ['error', 'never'],
         'comma-dangle': ['error', {
             arrays: 'always-multiline',
             objects: 'always-multiline',
@@ -94,7 +72,7 @@ module.exports = {
         }],
         'padding-line-between-statements': [
             'error',
-            // The following two lines replace the deprecated 'lines-around-directive' rule.
+            // The following two lines replace the deprecated "lines-around-directive" rule.
             {
                 blankLine: 'always',
                 prev: 'directive',
@@ -105,7 +83,7 @@ module.exports = {
                 prev: 'directive',
                 next: 'directive',
             },
-            // Following line replaces the deprecated 'newline-before-return' rule.
+            // Following line replaces the deprecated "newline-before-return" rule.
             {
                 blankLine: 'always',
                 prev: '*',
@@ -150,6 +128,30 @@ module.exports = {
         'space-unary-ops': 'error',
         'spaced-comment': 'error',
         'no-negated-condition': 'warn',
-        'no-warning-comments': 'warn'
+        'no-warning-comments': 'warn',
+        'import/order': [
+            'error',
+            {
+                alphabetize: {
+                    order: 'asc',
+                    caseInsensitive: true,
+                },
+            },
+        ],
+        'import/no-dynamic-require': 'error',
+        'import/no-webpack-loader-syntax': 'error',
+        'import/export': 'error',
+        'import/no-extraneous-dependencies': 'error',
+        'import/no-nodejs-modules': 'error',
+        'import/first': 'error',
+        'import/no-duplicates': 'error',
+        'import/no-absolute-path': 'error',
+        'import/no-unused-modules': 'error',
+        'import/newline-after-import': [
+            'error',
+            {
+                count: 1,
+            }
+        ]
     }
 }

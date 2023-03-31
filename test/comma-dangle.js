@@ -1,9 +1,9 @@
 /* eslint-disable object-curly-newline */
-import { importSingleLine } from 'hello';
+import { importSingleLine } from 'foo';
 import {
     importMultiline1,
     importMultiline2,
-} from 'hello';
+} from 'foobar';
 
 var singleLine = { comma: 'dangle' };
 

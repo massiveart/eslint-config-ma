@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/massiveart/eslint-config-ma#readme",
   "devDependencies": {
-    "eslint": "^8.37.0"
+    "eslint": "^8.37.0",
+    "eslint-plugin-import": "^2.27.5"
   },
   "peerDependencies": {
     "eslint": ">=8"
