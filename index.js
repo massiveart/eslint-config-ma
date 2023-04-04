@@ -3,9 +3,6 @@
 module.exports = {
     env: {
         browser: true,
-        node: true,
-        es2022: true,
-        amd: true,
     },
     extends: 'eslint:recommended',
     plugins: ['import'],
