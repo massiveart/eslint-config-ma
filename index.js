@@ -111,7 +111,12 @@ module.exports = {
         'func-name-matching': 'error',
         'key-spacing': 'error',
         'keyword-spacing': 'error',
-        'new-cap': 'error',
+        'new-cap': [
+            'error',
+            {
+                capIsNewExceptions: ['$.Deferred', 'jQuery.Deferred']
+            }
+        ],
         'new-parens': 'error',
         'no-lonely-if': 'error',
         'no-nested-ternary': 'error',
