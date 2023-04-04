@@ -96,7 +96,6 @@ module.exports = {
         'no-useless-call': 'error',
         'no-useless-concat': 'error',
         'no-useless-return': 'error',
-        'vars-on-top': 'error',
         'no-undef-init': 'error',
         'no-undefined': 'error',
         'no-use-before-define': 'error',
