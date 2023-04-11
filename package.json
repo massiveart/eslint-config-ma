@@ -21,10 +21,13 @@
     "url": "https://github.com/massiveart/eslint-config-ma/issues"
   },
   "homepage": "https://github.com/massiveart/eslint-config-ma#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
+  },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^8.37.0"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=8"
   }
 }
