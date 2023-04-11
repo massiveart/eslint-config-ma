@@ -29,6 +29,7 @@ module.exports = {
             120,
             {
                 ignorePattern: '^import\\s.+\\sfrom\\s.+;$',
+                ignoreComments: true,
             }
         ],
         'max-statements-per-line': [
